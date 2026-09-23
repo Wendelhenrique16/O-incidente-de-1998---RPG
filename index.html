@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>O Incidente de 1998</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="crt-wrapper">
+    <div class="scanlines"></div>
+    <div class="crt-flicker"></div>
+    <div class="vignette"></div>
+
+    <div id="screen" class="screen">
+      <div id="output" class="output"></div>
+      <div id="choices" class="choices"></div>
+      <div id="prompt" class="prompt">
+        <span id="promptText"></span><span class="cursor">&#9608;</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="boot" class="boot">
+    <div class="boot-text">
+      <p>SISTEMA A.C.E. — TERMINAL DE CAMPO v1.98</p>
+      <p>Carregando módulo narrativo<span class="dots">...</span></p>
+      <p class="boot-hint">Toque a tela ou pressione qualquer tecla para iniciar</p>
+    </div>
+  </div>
+
+  <script src="terminal.js"></script>
+  <script src="story.js"></script>
+</body>
+</html>
